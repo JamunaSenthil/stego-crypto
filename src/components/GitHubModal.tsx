@@ -74,58 +74,78 @@ git push -u origin main`,
         <div className="p-3.5 rounded-xl bg-[#080B12] border border-[#1E293B] space-y-2 text-xs">
           <div className="font-semibold text-white flex items-center space-x-1.5">
             <ShieldCheck className="w-4 h-4 text-[#00E676]" />
-            <span>Architecture & Feature Parity</span>
+            <span>Project Ready for GitHub (jamunasenthil009)</span>
           </div>
           <p className="text-[#94A3B8] leading-relaxed">
-            This workspace contains the complete web adaptation of <strong className="text-white">keshavkrk/stego-crypto</strong>. The original Python CustomTkinter desktop app has been re-architected into a modern zero-install Web application:
+            All files from <strong className="text-white">keshavkrk/stego-crypto</strong> have been cleanly ported to a modern Web Application (React 19 + TypeScript + WebCrypto + LSB Stego Engine). You have 3 easy ways to put this in your GitHub account:
           </p>
-          <ul className="grid grid-cols-2 gap-2 pt-1 text-[11px] text-[#CBD5E1]">
-            <li className="flex items-center space-x-1.5">
-              <span className="text-[#00E676]">✓</span>
-              <span>PBKDF2-HMAC-SHA256 & AES-256</span>
-            </li>
-            <li className="flex items-center space-x-1.5">
-              <span className="text-[#00E676]">✓</span>
-              <span>LSB 4-Byte Header & Zlib Framing</span>
-            </li>
-            <li className="flex items-center space-x-1.5">
-              <span className="text-[#00E676]">✓</span>
-              <span>Aadhaar, PAN, CC, Phone & Email OCR</span>
-            </li>
-            <li className="flex items-center space-x-1.5">
-              <span className="text-[#00E676]">✓</span>
-              <span>Multi-slot Chained Redaction</span>
-            </li>
-            <li className="flex items-center space-x-1.5">
-              <span className="text-[#00E676]">✓</span>
-              <span>Interactive Drag-to-Redact Canvas</span>
-            </li>
-            <li className="flex items-center space-x-1.5">
-              <span className="text-[#00E676]">✓</span>
-              <span>Reversible Pixel Patch Restoration</span>
-            </li>
-          </ul>
         </div>
 
-        {/* Step-by-Step Push Instructions */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between">
-            <label className="text-xs font-semibold text-white flex items-center space-x-1.5">
-              <Terminal className="w-3.5 h-3.5 text-[#00E5FF]" />
-              <span>Git Commands to Push to Your GitHub</span>
-            </label>
-            <button
-              onClick={() => handleCopy(gitCommands[0], 0)}
-              className="text-[11px] px-2.5 py-1 rounded bg-[#1E293B] hover:bg-[#334155] text-[#00E5FF] border border-[#00E5FF]/30 flex items-center space-x-1 transition-all"
-            >
-              {copiedIndex === 0 ? <Check className="w-3 h-3 text-[#00E676]" /> : <Copy className="w-3 h-3" />}
-              <span>{copiedIndex === 0 ? 'Copied' : 'Copy Commands'}</span>
-            </button>
+        {/* 3 Methods */}
+        <div className="space-y-3">
+          {/* Method 1: AI Studio Built-in Export */}
+          <div className="p-3.5 rounded-xl bg-[#0D1525] border border-[#00E5FF]/30 space-y-2 text-xs">
+            <div className="flex items-center justify-between">
+              <span className="font-bold text-white flex items-center space-x-2">
+                <span className="w-5 h-5 rounded-full bg-[#00E5FF]/20 text-[#00E5FF] text-[10px] flex items-center justify-center font-mono">1</span>
+                <span>Method 1: AI Studio One-Click GitHub Export (Recommended)</span>
+              </span>
+              <span className="text-[10px] px-2 py-0.5 rounded bg-[#00E676]/20 text-[#00E676] font-medium">Easiest</span>
+            </div>
+            <p className="text-[#94A3B8] text-[11px] leading-relaxed">
+              In the top-right toolbar of the Google AI Studio Build interface (above this window), click the <strong>Export</strong> or <strong>GitHub</strong> icon. Connect your GitHub account and AI Studio will automatically create the repository and push all source files directly to your account with zero commands needed!
+            </p>
           </div>
 
-          <pre className="bg-[#080B12] p-3.5 rounded-xl border border-[#1E293B] text-[11px] font-mono text-[#A78BFA] overflow-x-auto whitespace-pre leading-relaxed select-all">
-            {gitCommands[0]}
-          </pre>
+          {/* Method 2: Direct Zip Download */}
+          <div className="p-3.5 rounded-xl bg-[#0D1525] border border-[#1E293B] space-y-2 text-xs">
+            <div className="flex items-center justify-between">
+              <span className="font-bold text-white flex items-center space-x-2">
+                <span className="w-5 h-5 rounded-full bg-[#7C3AED]/20 text-[#A78BFA] text-[10px] flex items-center justify-center font-mono">2</span>
+                <span>Method 2: Download Complete Project Archive</span>
+              </span>
+              <a
+                href="/stego-crypto-project.zip"
+                download="stego-crypto-web-project.zip"
+                className="px-3 py-1 rounded-lg bg-[#7C3AED] hover:bg-[#6D28D9] text-white text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-md shadow-[#7C3AED]/20"
+              >
+                <span>Download .ZIP</span>
+              </a>
+            </div>
+            <p className="text-[#94A3B8] text-[11px] leading-relaxed">
+              Download the clean, full repository zip archive. Then on GitHub, create a new repository and drag-and-drop the unzipped project folder.
+            </p>
+          </div>
+
+          {/* Method 3: Git CLI Push */}
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <label className="text-xs font-semibold text-white flex items-center space-x-2">
+                <span className="w-5 h-5 rounded-full bg-[#1E293B] text-[#CBD5E1] text-[10px] flex items-center justify-center font-mono">3</span>
+                <span className="flex items-center space-x-1.5">
+                  <Terminal className="w-3.5 h-3.5 text-[#00E5FF]" />
+                  <span>Method 3: Push via Git Terminal</span>
+                </span>
+              </label>
+              <button
+                onClick={() => handleCopy(gitCommands[0], 0)}
+                className="text-[11px] px-2.5 py-1 rounded bg-[#1E293B] hover:bg-[#334155] text-[#00E5FF] border border-[#00E5FF]/30 flex items-center space-x-1 transition-all"
+              >
+                {copiedIndex === 0 ? <Check className="w-3 h-3 text-[#00E676]" /> : <Copy className="w-3 h-3" />}
+                <span>{copiedIndex === 0 ? 'Copied' : 'Copy Commands'}</span>
+              </button>
+            </div>
+
+            <pre className="bg-[#080B12] p-3 rounded-xl border border-[#1E293B] text-[11px] font-mono text-[#A78BFA] overflow-x-auto whitespace-pre leading-relaxed select-all">
+{`# In your new GitHub repository, run:
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/stego-crypto.git
+git branch -M main
+git push -u origin main`}
+            </pre>
+            <p className="text-[11px] text-[#64748B]">
+              Tip: If you'd like me to push directly from this terminal, you can provide your repository URL and a temporary GitHub Personal Access Token (PAT) with "repo" scope.
+            </p>
+          </div>
         </div>
 
         {/* Modal Footer */}
