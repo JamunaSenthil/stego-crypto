@@ -1,0 +1,6 @@
+{
+  "name": "SecureGuard AI - Stego-Crypt",
+  "description": "Document intelligence, automated PII redaction, password-based AES encryption, and reversible LSB steganography restoration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
