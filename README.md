@@ -1,7 +1,7 @@
 # SecureGuard AI — Stego-Crypt
 
 > **Modern Web-Based Document Intelligence, Automated PII Redaction, Password-Derived AES Encryption, and Reversible LSB Steganography Restoration.**
-> Ported and upgraded from [keshavkrk/stego-crypto](https://github.com/keshavkrk/stego-crypto) into a zero-install, high-performance Web Application.
+> Built with zero-install, high-performance Web Cryptography and Steganography.
 
 ---
 
@@ -90,4 +90,4 @@ Visit `http://localhost:3000` in your browser.
 
 ## 📜 License
 
-Apache-2.0 License. Based on the original architecture by [keshavkrk/stego-crypto](https://github.com/keshavkrk/stego-crypto).
+Apache-2.0 License. Maintained by Jamuna Senthil.

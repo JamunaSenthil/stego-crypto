@@ -85,19 +85,19 @@ export function createAadhaarSample(): { canvas: HTMLCanvasElement; wordBoxes: S
   };
 
   addText('Name:', 220, 145, 'bold 14px sans-serif', '#475569');
-  addText('KESHAV KUMAR RAJESH', 280, 145, 'bold 16px sans-serif', '#0F172A');
+  addText('JAMUNA SENTHIL', 280, 145, 'bold 16px sans-serif', '#0F172A');
 
   addText('DOB:', 220, 180, 'bold 14px sans-serif', '#475569');
   addText('14/05/1992', 270, 180, '15px sans-serif', '#0F172A');
 
   addText('Gender:', 420, 180, 'bold 14px sans-serif', '#475569');
-  addText('MALE', 485, 180, '15px sans-serif', '#0F172A');
+  addText('FEMALE', 485, 180, '15px sans-serif', '#0F172A');
 
   addText('Mobile:', 220, 215, 'bold 14px sans-serif', '#475569');
   addText('9876543210', 280, 215, '15px sans-serif', '#0F172A');
 
   addText('Email:', 220, 250, 'bold 14px sans-serif', '#475569');
-  addText('keshav.krk@identity.gov.in', 275, 250, '15px sans-serif', '#0F172A');
+  addText('jamuna.senthil@identity.gov.in', 275, 250, '15px sans-serif', '#0F172A');
 
   // Aadhaar Number Section (Large Red Box)
   ctx.fillStyle = '#FEF2F2';
@@ -203,10 +203,10 @@ export function createPANCardSample(): { canvas: HTMLCanvasElement; wordBoxes: S
   addText('ABCDE1234F', 220, 155, 'bold 24px monospace', '#0369A1');
 
   addText("Name / नाम", 220, 195, '12px sans-serif', '#64748B');
-  addText('KESHAV KUMAR', 220, 220, 'bold 16px sans-serif');
+  addText('JAMUNA SENTHIL', 220, 220, 'bold 16px sans-serif');
 
   addText("Father's Name / पिता का नाम", 220, 255, '12px sans-serif', '#64748B');
-  addText('RAMESH KUMAR', 220, 280, 'bold 15px sans-serif');
+  addText('SENTHIL KUMAR', 220, 280, 'bold 15px sans-serif');
 
   addText("Date of Birth / जन्म तिथि", 220, 315, '12px sans-serif', '#64748B');
   addText('14/05/1992', 220, 340, 'bold 15px sans-serif');
@@ -216,7 +216,7 @@ export function createPANCardSample(): { canvas: HTMLCanvasElement; wordBoxes: S
   ctx.strokeRect(50, 310, 130, 50);
   ctx.font = 'italic 16px cursive';
   ctx.fillStyle = '#0F172A';
-  ctx.fillText('Keshav Kumar', 60, 342);
+  ctx.fillText('Jamuna Senthil', 60, 342);
 
   return { canvas, wordBoxes };
 }

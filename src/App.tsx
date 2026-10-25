@@ -66,14 +66,14 @@ export default function App() {
             </div>
             <span className="text-[#334155]">•</span>
             <span className="text-[11px] text-[#64748B] hidden md:inline">
-              Ported from{' '}
+              Repository:{' '}
               <a
-                href="https://github.com/keshavkrk/stego-crypto"
+                href="https://github.com/JamunaSenthil/stego-crypto"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#94A3B8] hover:text-[#00E5FF] underline"
               >
-                keshavkrk/stego-crypto
+                JamunaSenthil/stego-crypto
               </a>
             </span>
           </div>

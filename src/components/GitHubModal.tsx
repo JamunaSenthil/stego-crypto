@@ -58,12 +58,12 @@ git push -u origin main`,
             <p className="text-xs text-[#94A3B8]">
               Source repository:{' '}
               <a
-                href="https://github.com/keshavkrk/stego-crypto"
+                href="https://github.com/JamunaSenthil/stego-crypto"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#00E5FF] hover:underline inline-flex items-center space-x-0.5 font-mono"
               >
-                <span>keshavkrk/stego-crypto</span>
+                <span>JamunaSenthil/stego-crypto</span>
                 <ExternalLink className="w-3 h-3 ml-0.5" />
               </a>
             </p>
@@ -74,10 +74,10 @@ git push -u origin main`,
         <div className="p-3.5 rounded-xl bg-[#080B12] border border-[#1E293B] space-y-2 text-xs">
           <div className="font-semibold text-white flex items-center space-x-1.5">
             <ShieldCheck className="w-4 h-4 text-[#00E676]" />
-            <span>Project Ready for GitHub (jamunasenthil009)</span>
+            <span>Project Published to GitHub (JamunaSenthil)</span>
           </div>
           <p className="text-[#94A3B8] leading-relaxed">
-            All files from <strong className="text-white">keshavkrk/stego-crypto</strong> have been cleanly ported to a modern Web Application (React 19 + TypeScript + WebCrypto + LSB Stego Engine). You have 3 easy ways to put this in your GitHub account:
+            The project is packaged as a modern, high-performance Web Application (React 19 + TypeScript + WebCrypto + LSB Stego Engine) under your repository <strong className="text-white">JamunaSenthil/stego-crypto</strong>.
           </p>
         </div>
 
